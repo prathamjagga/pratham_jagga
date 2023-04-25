@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2A2A2A; /* light black background color */
+    background-image: radial-gradient(#f5f5f590 10%, transparent 0); /* create off-white dots using a radial gradient */
+    background-size: 30px 30px; /* set the size of the dots */
+    color: rgb(241, 235, 235); /* default text color is set to off white */
+    font-family: 'Nanum Gothic Coding', monospace;
+}

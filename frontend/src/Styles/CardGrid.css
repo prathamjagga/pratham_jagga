@@ -1,0 +1,80 @@
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    height:70vh;
+    width:80%;
+    overflow:auto;
+    background:#252729de;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding:15px;
+}
+
+.adCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin:10px;
+    background-color: #2a2a2a;
+    height:10rem;
+    width:20rem;
+    transition: all 0.3s ease;
+    overflow:hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    color: white;
+    border: 1.5px solid rgba(241, 233, 233, 0.681);
+    border-radius: 10px;
+}
+
+
+.adCard:hover{
+    border: 3px solid rgba(241, 233, 233, 0.681);
+    border-radius: 10px;
+    background-color: #a8cde200;
+    color:rgba(241, 233, 233, 0.923);
+    font-weight: 700;
+}
+
+.adCard svg{
+    position: relative;
+    top:7px;
+}
+.adCard svg path{
+    fill:#818CF8
+}
+
+.cardGrid::-webkit-scrollbar {
+    border-radius: 20px;
+    width: 12px;
+    background: #645757;
+}
+
+.cardGrid::-webkit-scrollbar-track {
+    background: #645757;;
+    border-radius: 20px;
+}
+
+.cardGrid::-webkit-scrollbar-thumb {
+    background: #ccc;
+    height: 2.5rem;
+    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.cardGrid::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+    
+}
+
+@media (max-width: 767px) {
+    .cardOnHover:first-child {
+        font-size: 3rem  !important;
+
+    }
+}
